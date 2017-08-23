@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Tonmoy</title>
-</head>
-<body>
-<h1 style="text-align: center;">Hello world</h1>
-	<script>
-		console.log('muha');
-	</script>
-</body>
+    <head>
+        <title>Tonmoy</title>
+        <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <div id="typedtext"></div>
+        <div style="position: absolute; bottom: 100px; left:45%; text-align: center">
+            Find me on<br>
+            <a href="https://github.com/tontus" style="color: #24292E"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/shaleh.tonmoy" style="color: #24292E"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="mailto:tonmoyshaleh@gmail.com?Subject=From%20portfolio" style="color: #24292E"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </div>
+        <script>
+            // set up text to print, each item in array is new line
+            var aText = new Array(
+            "There are only 10 types of people in the world:", 
+            "Those who understand binary, and those who don't"
+            );
+            var iSpeed = 100; // time delay of print out
+            var iIndex = 0; // start printing array at this posision
+            var iArrLength = aText[0].length; // the length of the text array
+            var iScrollAt = 20; // start scrolling up at this many lines
+            
+            var iTextPos = 0; // initialise text position
+            var sContents = ''; // initialise contents variable
+            var iRow; // initialise current row
+            
+            function typewriter()
+            {
+            sContents =  ' ';
+            iRow = Math.max(0, iIndex-iScrollAt);
+            var destination = document.getElementById("typedtext");
+            
+            while ( iRow < iIndex ) {
+            sContents += aText[iRow++] + '<br />';
+            }
+            destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+            if ( iTextPos++ == iArrLength ) {
+            iTextPos = 0;
+            iIndex++;
+            if ( iIndex != aText.length ) {
+            iArrLength = aText[iIndex].length;
+            setTimeout("typewriter()", 500);
+            }
+            } else {
+            setTimeout("typewriter()", iSpeed);
+            }
+            }
+            
+            
+            typewriter();
+        </script>
+    </body>
 </html>
