@@ -27,38 +27,28 @@
       year: 2018 - 2022
       description: Why do we share fake news? A cognitive behaviour analysis on the use of social media in global south context. A research to identify any connection between sharing news without verifying with the personal relationship of the news spreader.
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - year: 2020 - 2023
+      title: Software Developer
+      institution: <a href="https://scale-kuwait.com">SPURS Restaurants Company</a>, Kuwait City, Kuwait (Remote)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed the online operations of the company, including web and mobile apps.
+        - Set up and maintained continuous integration and deployment pipelines.
+        - Responsible for defining the overall structure of the system, including its components, their relationships, and how they will interact with each other.
+    - title: Freelance QA Tester
+      year: 2019 - 2023
+      institution: Testlio, Estonia (Remote)
+      description: Performed usability and functional testing of various software and mobile applications.
+    - title: Freelance Software Developer at Upwork
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Developed various mobile and web apps
+        - Worked as a project manager for a client
+    - title: Game and Android app Developer (Part time)
+      year: 2017
+      institution: HEXit, Sylhet, Bangladesh
 
 - title: Open Source Projects
   type: time_table
@@ -67,30 +57,56 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
+- title: Academic Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/tontus/Evaluation">Answer paper grading assistant</a>
+      year: 2017
+      description:
+        - A website to help teachers grade their answer paper with the help of semantic analysis as part of a web engineering course.
+        - "Technology used: django, NLTK, celery (for asynchronous task queue)"
+    - title: Result Management System
+      year: 2017
+      description:
+        - A web-based solution to manage university course registration and manage results directly from teachers.
+        - "Technology used: mySQL, laravel"
+
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2019
+      title: Champion in ‘Digital Khichuri Challenge-2019’
+      description: This national-level hackathon was organized by United Nations Development Programme (UNDP) and supported by Facebook and ICT Ministry, Bangladesh. This competition was about finding a digital way to promote harmony and peace in the community hence achieving Sustainable Development Goals (SDG).
+    - year: 2020
+      title: Astronomy for Development Grants
+      description: "Awarded by the Office of Astronomy for Development of the International Astronomical Union for an astronomy education-related project. Developed an Android mobile application as part of this project, named Talking Planets: Astronomy App, available on the Play Store."
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
