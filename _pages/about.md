@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Physics Graduate, Software Developer, and Machine Learing Enthusiast
+subtitle: Software Developer, Computational Sciences and Social Sciences Enthresearcherusiast
 
 profile:
   align: right
@@ -13,15 +13,17 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 publications: true
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm a `physics` graduate from Shahjalal University of Science and Technology (SUST) with a second major in `computer science and engineering`. From the intricate laws governing the cosmos to the algorithms shaping the digital world, my interest lies in understanding the underlying principles of nature and the universe. I am interested in uncover the meaningful pattern in areas of Physics and human behavior using Artificial Intelligence and Machine Learning. I am also interested in the application of AI in the field of computational social science and Physics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**My research interests include:** `Human Compter Interaction`, `Computational Physics`, `Atrificial Intelligence`, `Computational Social Science`, `Computational Astronomy`
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am software developer by profession, working at [Scale Kuwait](https://scale-kuwait.com) as a full stack developer. I am responsible for developing and maintaining the company's website and web applications and also their internal tools and services.  
+
+I like to travel and explore new things. I have interest in literaure, history and cinema. 
