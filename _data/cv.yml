@@ -13,147 +13,99 @@
   contents:
     - title: BSc in Physics
       institution: Shahjalal University of Science and Technology, Sylhet
-      year: December 2013 - December 2019
-
+      year: 2019
+      description:
+        - Course works: Classical Mechanics, Quantum Mechanics, Electrodynamics, Statistical Mechanics, Nuclear Physics, Relativity, Mathematical Physics.
     - title: BSc in Computer Science and Engineering (2nd major)
       institution: Shahjalal University of Science and Technology, Sylhet
-      year: November 2015 - December 2018
+      year: 2018
       description:
         - Course works: Algorithms, Data Structures, Computer Networks, Database Systems
 
-- title: Standardized Test Results
+- title: Education
   type: time_table
   contents:
-    - year: 8th May, 2023
-      items: 
-        - GRE: [318 (Quantitative: 168, Verbal: 150), AWA: 3.0]
-    - year: 3rd Nov, 2022
-      items:
-        - IELTS: [7.0 (Listening: 8.5, Reading: 6.5, Writing: 6.5, Speaking: 7.0)]
-
-- title: Research Experiences
-  type: time_table
-  contents:
-    - year: December 2018
-      items:
-        - Why do we share fake news? A cognitive behaviour analysis on the use of social media in global south context
-      description: A research to identify any connection between sharing news without verifying with the personal relationship of the news spreader.
-
-- title: Presentation
-  type: time_table
-  contents:
-    - year: April 2023
-      items:
-        - [<a href="https://docs.google.com/presentation/d/1ivirRIgMqAfxFcqjR5fTKt4HRihVuT2pvhOu5mDWPDg/edit?usp=sharing">Gamification of ICT textbook material to make an interactive learning experience</a>]
-      description: Presented a half-baked idea of a project of gamification of Bangladesh ICT textbook content to provide an interactive learning experience to underprivileged students
-
-- title: Professional Experience
-  type: time_table
-  contents:
-    - year: November 2020 - Present
-      items:
-        - Software Developer
-      institution: [<a href="https://scale-kuwait.com">SPURS Restaurants Company</a>]
-      location: Murqab, Soor Street, Al-Tijaria Tower, Kuwait City, Kuwait (Remote)
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Developed the online operations of the company, including web and mobile apps.
-        - Set up and maintained continuous integration and deployment pipelines.
-        - Responsible for defining the overall structure of the system, including its components, their relationships, and how they will interact with each other.
-    - year: July 2019 - February 2023
-      items:
-        - Freelance QA Tester
-      institution: Testlio
-      location: Estonia (Remote)
-      description: Performed usability and functional testing of various software and mobile applications.
-    - year: January 2018 - January 2022
-      items:
-        - Freelance Software Developer at Upwork
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - Developed various mobile and web apps
-        - Worked as a project manager for a client
-    - year: March 2017 - November 2017
-      items:
-        - Game and Android app Developer (Part time)
-      institution: HEXit
-      location: Sylhet, Bangladesh
+        - Description 1.
+        - Description 2.
 
-- title: Academic Projects
+- title: Experience
   type: time_table
   contents:
-    - year: December 2017
-      items:
-        - [<a href="https://github.com/tontus/Evaluation">Answer paper grading assistant</a>]
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - A website to help teachers grade their answer paper with the help of semantic analysis as part of a web engineering course.
-        - Technology used: django, NLTK, celery (for asynchronous task queue)
-    - year: June 2017
-      items:
-        - Result Management System
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - A web-based solution to manage university course registration and manage results directly from teachers.
-        - Technology used: mySQL, laravel
+        - Description 1.
+        - Description 2.
 
-- title: Extra Curricular and Volunteering Activities
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
   type: time_table
   contents:
-    - year: 2020
-      items:
-        - COVID-19 Relief Efforts
-      description: Actively participated in fundraising activities to collect funds for COVID-19 relief and organized the distribution of food and supplies to low-income families affected by the lockdown.
-    - year: 2014 - 2017
-      items:
-        - IT Secretary
-      institution: [<a href="https://cam-sust.org">Copernicus Astronomical Memorial of SUST</a>]
-      description: Only official astronomical organization of Shahjalal University of Science and Technology, Sylhet. I was a general member, study circle executive, and publicity secretary of this organization in 2014, 2015, and 2016.
-    - year: 2014 - 2018
-      items:
-        - Member
-      institution: Cartoon Factory SUST
-      description: I was an active member of Cartoon Factory SUST, an organization that works with cartoons and comics. I generated ideas for cartoons addressing contemporary social issues.
-
-- title: Skills
-  type: list
-  contents:
-    - Languages: Bangla (First Language), English
-    - Programming Languages: python, java, Dart, Javascript, C, C#, Haskell, PHP, Kotlin
-    - Databases: mySQL, PostgreSQL, Firebase
-    - Libraries & frameworks: NumPy, TensorFlow, Pandas, django, Flutter, Reactjs
-    - Tools: git, docker, Jupyter, LaTeX
-    - Softwares: Unity3d, Adobe Photoshop, Adobe After Effects, Android Studio
-
-- title: Online Courses
-  type: time_table
-  contents:
-    - year: August 2023
-      items:
-        - Machine Learning Specialization
-      institution: [<a href="https://coursera.org/share/b2edc6343d06b88f70c9524977ae18ea">Stanford University, Andrew Ng, DeepLearning.ai</a>]
-      description: Completed a comprehensive online specialization covering various aspects of machine learning, including supervised learning, unsupervised learning, deep learning, and neural networks. Developed practical skills in data preprocessing, model building, and evaluation.
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2023
-      items:
-        - Champion in ‘Digital Khichuri Challenge-2019’
-      description: This national-level hackathon was organized by United Nations Development Programme (UNDP) and supported by Facebook and ICT Ministry, Bangladesh. This competition was about finding a digital way to promote harmony and peace in the community hence achieving Sustainable Development Goals (SDG).
-    - year: 2022
-      items:
-        - Astronomy for Development Grants
-      description: Awarded by Office of Astronomy for Development of the International Astronomical Union for an astronomy education-related project. Developed an Android mobile application as part of this project, named Talking Planets: Astronomy App, available on the Play Store.
+    - year: 1921
+      items: 
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
+      items: 
+        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Human Computer Interaction
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
       items:
-        - Computational Physics
-        - Artificial Intelligence
-        - Computational Social Science
-        - Computational Astronomy
+        - Description 1.
+        - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - Hobbies: Traveling, exploring new things
-    - Interests: Literature, history, cinema
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
