@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 14th Oct, 1995
     - name: Languages
-      value: Bangla (First Language), English, German
+      value: Bangla (First Language), English
 
 - title: Education
   type: time_table
@@ -14,13 +14,11 @@
     - title: BSc in Physics
       institution: Shahjalal University of Science and Technology, Sylhet
       year: December 2013 - December 2019
-      description: Obtained a CGPA of 3.07 on a scale of 4.00.
 
     - title: BSc in Computer Science and Engineering (2nd major)
       institution: Shahjalal University of Science and Technology, Sylhet
       year: November 2015 - December 2018
       description:
-        - Obtained a CGPA of 3.50 on a scale of 4.00.
         - Course works: Algorithms, Data Structures, Computer Networks, Database Systems
 
 - title: Standardized Test Results
@@ -28,10 +26,10 @@
   contents:
     - year: 8th May, 2023
       items: 
-        - GRE: 318 (Quantitative: 168, Verbal: 150), AWA: 3.0
+        - GRE: [318 (Quantitative: 168, Verbal: 150), AWA: 3.0]
     - year: 3rd Nov, 2022
       items:
-        - IELTS: 7.0 (Listening: 8.5, Reading: 6.5, Writing: 6.5, Speaking: 7.0)
+        - IELTS: [7.0 (Listening: 8.5, Reading: 6.5, Writing: 6.5, Speaking: 7.0)]
 
 - title: Research Experiences
   type: time_table
@@ -46,7 +44,7 @@
   contents:
     - year: April 2023
       items:
-        - [Gamification of ICT textbook material to make an interactive learning experience](https://docs.google.com/presentation/d/1ivirRIgMqAfxFcqjR5fTKt4HRihVuT2pvhOu5mDWPDg/edit?usp=sharing)
+        - [<a href="https://docs.google.com/presentation/d/1ivirRIgMqAfxFcqjR5fTKt4HRihVuT2pvhOu5mDWPDg/edit?usp=sharing">Gamification of ICT textbook material to make an interactive learning experience</a>]
       description: Presented a half-baked idea of a project of gamification of Bangladesh ICT textbook content to provide an interactive learning experience to underprivileged students
 
 - title: Professional Experience
@@ -55,7 +53,7 @@
     - year: November 2020 - Present
       items:
         - Software Developer
-      institution: SPURS Restaurants Company
+      institution: [<a href="https://scale-kuwait.com">SPURS Restaurants Company</a>]
       location: Murqab, Soor Street, Al-Tijaria Tower, Kuwait City, Kuwait (Remote)
       description:
         - Developed the online operations of the company, including web and mobile apps.
@@ -84,9 +82,9 @@
   contents:
     - year: December 2017
       items:
-        - [Answer paper grading assistant](https://github.com/tontus/Evaluation)
+        - [<a href="https://github.com/tontus/Evaluation">Answer paper grading assistant</a>]
       description:
-        - A website to help teachers grade their answer paper with help of semantic analysis as part of web engineering course.
+        - A website to help teachers grade their answer paper with the help of semantic analysis as part of a web engineering course.
         - Technology used: django, NLTK, celery (for asynchronous task queue)
     - year: June 2017
       items:
@@ -101,20 +99,17 @@
     - year: 2020
       items:
         - COVID-19 Relief Efforts
-      description:
-        - Actively participated in fundraising activities to collect funds for COVID-19 relief and organized distribution of food and supplies to low-income families affected by the lockdown.
+      description: Actively participated in fundraising activities to collect funds for COVID-19 relief and organized the distribution of food and supplies to low-income families affected by the lockdown.
     - year: 2014 - 2017
       items:
         - IT Secretary
-      institution: Copernicus Astronomical Memorial of SUST
-      description:
-        - Only official astronomical organization of Shahjalal University of Science and Technology, Sylhet. I was a general member, study circle executive, and publicity secretary of this organization in 2014, 2015, and 2016.
+      institution: [<a href="https://cam-sust.org">Copernicus Astronomical Memorial of SUST</a>]
+      description: Only official astronomical organization of Shahjalal University of Science and Technology, Sylhet. I was a general member, study circle executive, and publicity secretary of this organization in 2014, 2015, and 2016.
     - year: 2014 - 2018
       items:
         - Member
       institution: Cartoon Factory SUST
-      description:
-        - I was an active member of Cartoon Factory SUST, an organization that works with cartoons and comics. I generated ideas for cartoons addressing contemporary social issues.
+      description: I was an active member of Cartoon Factory SUST, an organization that works with cartoons and comics. I generated ideas for cartoons addressing contemporary social issues.
 
 - title: Skills
   type: list
@@ -132,7 +127,7 @@
     - year: August 2023
       items:
         - Machine Learning Specialization
-      institution: Stanford University, Andrew Ng, DeepLearning.ai
+      institution: [<a href="https://coursera.org/share/b2edc6343d06b88f70c9524977ae18ea">Stanford University, Andrew Ng, DeepLearning.ai</a>]
       description: Completed a comprehensive online specialization covering various aspects of machine learning, including supervised learning, unsupervised learning, deep learning, and neural networks. Developed practical skills in data preprocessing, model building, and evaluation.
 
 - title: Honors and Awards
@@ -141,8 +136,24 @@
     - year: 2023
       items:
         - Champion in ‘Digital Khichuri Challenge-2019’
-      description: This national level hackathon was organized by United Nations Development Programme (UNDP) and supported by Facebook and ICT Ministry, Bangladesh. This competition was about finding a digital way to promote harmony and peace in the community hence achieving Sustainable Development Goals (SDG).
-    - year: 2015-now
+      description: This national-level hackathon was organized by United Nations Development Programme (UNDP) and supported by Facebook and ICT Ministry, Bangladesh. This competition was about finding a digital way to promote harmony and peace in the community hence achieving Sustainable Development Goals (SDG).
+    - year: 2022
       items:
         - Astronomy for Development Grants
-      description: Awarded by Office of Astronomy for Development of the
+      description: Awarded by Office of Astronomy for Development of the International Astronomical Union for an astronomy education-related project. Developed an Android mobile application as part of this project, named Talking Planets: Astronomy App, available on the Play Store.
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Human Computer Interaction
+      items:
+        - Computational Physics
+        - Artificial Intelligence
+        - Computational Social Science
+        - Computational Astronomy
+
+- title: Other Interests
+  type: list
+  contents:
+    - Hobbies: Traveling, exploring new things
+    - Interests: Literature, history, cinema
