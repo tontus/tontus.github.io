@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Developer, Computational Sciences and Social Sciences Enthresearcherusiast
+subtitle: Software Developer, Computational Sciences and Social Sciences researcher
 
 profile:
   align: right
