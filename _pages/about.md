@@ -26,4 +26,4 @@ Hi! I'm a `physics` graduate from Shahjalal University of Science and Technology
 
 I am software developer by profession, working at [Scale Kuwait](https://scale-kuwait.com) as a full stack developer. I am responsible for developing and maintaining the company's website and web applications and also their internal tools and services.  
 
-I'm into literature, art, history, and cinema! Love traveling and [capturing nature's beauty](/photography/) whenever I can.
+I'm into literature, art, history, and cinema! Love traveling and [capturing  the nature through my lenses](/photography/) whenever I can.
