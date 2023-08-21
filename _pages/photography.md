@@ -28,10 +28,10 @@ nav_order: 7
     </div>
 </div>
 <div class="row mt-3">
-    <div class="col-9">
+    <div class="col-8">
         {% include figure.html path="assets/img/photography/atigram.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class ="col-3">
+    <div class ="col-4">
     {% include figure.html path="assets/img/photography/lalmoni.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
