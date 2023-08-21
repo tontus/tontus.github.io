@@ -8,4 +8,9 @@ nav_order: 7
 ---
 
 
-![1][assets/img/sea-of-solitude/game.jpeg]
+
+<div class="row mt-3">
+    <div class="col mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sea-of-solitude/game.jpeg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
