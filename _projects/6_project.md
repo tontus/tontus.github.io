@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Evaluation
+description: A basic answer scoring web app using the power of NLTK and django
+redirect: https://github.com/tontus/Evaluation
 importance: 4
-category: fun
+category: academic
 ---
 
 Every project has a beautiful feature showcase page.

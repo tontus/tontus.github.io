@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Scale Restaurant
+description: A healthy meal plan and delivery company
+# img: assets/img/7.jpg
+redirect: https://scale-kuwait.com/
 importance: 3
 category: work
 ---

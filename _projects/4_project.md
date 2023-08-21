@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Space Zoha
+redirect: https://github.com/tontus/space-zoha
+description: Rescue a scientist in a space to get back to the Earth 🌏 (Work in progress)
+img: /assets/img/spaceZoha/player.png
 importance: 3
 category: fun
 ---
