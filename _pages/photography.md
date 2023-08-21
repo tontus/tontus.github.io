@@ -1,9 +1,9 @@
 ---
 layout: page
-title: photography
+title: Photography
 permalink: /photography/
-description: A growing collection of your cool projects.
-nav: true
+description: Few attempts to capture the beautiful landscape.
+nav: false
 nav_order: 7
 ---
 
