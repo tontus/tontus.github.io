@@ -21,10 +21,10 @@ nav_order: 7
 
 **Description:** This research is an extension of my undergrad thesis, “Why do we share fake news?”. In this research, my two teammates and I investigated the human factors that may influence someone to spread misinformation regarding COVID-19 vaccination on social media. After surveying literature from various disciplines, including Philosophy, Psychology, and Computer Science, we formulated several null hypotheses about the pattern of misinformation propagation. We were struggling to find a suitable way to capture the interactions of individuals with fake news. I started reading about other papers to find a way to collect this kind of data. I designed an experiment that can capture and quantify the participants' interactions with a piece of false news in a controlled environment. After collecting some demographic information about the participants, we supplied them with some fabricated news as stimuli about the problems related to COVID-19 vaccines displayed from usually acclaimed sources in Bangladesh. We asked a series of questions related to them. All the survey takers were supplied with the same fabricated news from the same sources to reduce bias. The questions we asked ranged from how it made them concerned about their friends and families to how desperate they were to share these as soon as they finished the survey. We used Likert scales with 7 points to collect data ranging from strongly negative (1) to strongly positive (7). Some examples of the supplied fabricated news are given in Fig. 1 & 2. Those were created by me using Photoshop. Later in the survey, we clarified to the participants that the news was crafted and not actual.
 
-{% include figure.html path="assets/img/portfolio/fig1.png" class="img-fluid" %}
+{% include  path="assets/img/portfolio/fig1.png" class="img-fluid" %}
 _Fig 1: Fabricated news from a renowned english news outlet, The Daily Star in Bangladesh_
 
-{% include figure.html path="assets/img/portfolio/fig2.png" class="img-fluid" %}
+{% include  path="assets/img/portfolio/fig2.png" class="img-fluid" %}
 _Fig 2: Fabricated news from another renowned english news outlet, The Dhaka Tribune in Bangladesh_
 
 After collecting and cleaning those data by removing reponses that were invalid, we were left with 206 responses. Then, with the instructions of the project supervisor, I began analyzing the data. I used the Chi-square test and the Spearman Rank Correlation Coefficient to measure the correlation between features and applied Ordinal Logistic Regression to see how the features were related. I used pythons’ pandas, numpy, scipy, seaborn and matplotlib libraries to analyze and visualize these data.
@@ -59,11 +59,11 @@ More about the presentation can be found [here](https://drive.google.com/file/d/
 **Description:** This project focuses on establishing a comprehensive system for a food delivery startup. I’ve designed the software architecture and developed the whole system. The project is divided into several parts.
 
 - **Website backend:** Serving as the system's nucleus, the website follows a RESTful architecture pattern. Other subsystems communicate with the server via API endpoints. The server receives the API requests and returns the appropriate responses after executing the necessary computations. To mitigate potential security breaches, exclusive database access is granted solely to this backend. A simplified diagram of the system architecture is shown in Fig 3. Pythons’ Django and PostgreSQL are used for the backend.
-  {% include figure.html path="assets/img/portfolio/fig3.png" class="img-fluid" %}
+  {% include path="assets/img/portfolio/fig3.png" class="img-fluid" %}
   _Fig 3: System architecture of the project_
 
 - **Mobile Apps:** The mobile apps are for the customer end. The apps allow customers to subscribe to a package and select their desired meal from a provided menu. Customer can pause their subscribed days using the app. Additionally, customers can monitor their nutritional intake, encompassing calories, carbs, fat, and proteins. These apps have been crafted for Android and iOS platforms using a cross-platform framework, Flutter.
-  {% include figure.html path="assets/img/portfolio/fig4.png" class="img-fluid" %}
+  {% include path="assets/img/portfolio/fig4.png" class="img-fluid" %}
   _Fig 3: Screenshots of the mobile apps_
 
 - **Admin Dashboard:** The admin dashboard is for internal usage. The management team can generate various company reports, such as sales and orders. They can also update the menu, manage use subscriptions, update dishes from this website, print info stickers, and manage delivery queue. The website's front end is made with React, which uses API to communicate with the central backend.
