@@ -129,19 +129,52 @@
           </header>
 
           <article>
-            <h2 id="research-publication">Research Publication</h2>
+            <h1 id="table-of-contents">Table of Contents</h1>
+<ul>
+  <li><a href="#research-publication">Research Publication</a></li>
+  <li><a href="#presentation">Presentation</a></li>
+  <li>
+<a href="#software-development">Software Development</a>
+    <ul>
+      <li><a href="#scale-kuwait">Scale Kuwait</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="research-publication">Research Publication</h2>
 
 <p><strong>Title:</strong> A cognitive behaviour data analysis on the use of social media in the global south context focusing on Bangladesh<br>
 <strong>Paper link:</strong> <a href="https://www.nature.com/articles/s41598-023-30125-w" rel="external nofollow noopener" target="_blank">Read the Paper</a><br>
 <strong>Role:</strong> Null hypothesis formulation, Survey design, data collection &amp; analysis, writing manuscript<br>
-<strong>Description:</strong> This research is an extension of my undergrad thesis, “Why do we share fake news?”. In this research, my two teammates and I investigated the human factors that may influence someone to spread misinformation regarding COVID-19 vaccination on social media. After surveying literature from various disciplines, including Philosophy, Psychology, and Computer Science, we formulated several null hypotheses about the pattern of misinformation propagation. We designed an experiment to capture and quantify participants’ interactions with false news in a controlled environment. We collected demographic information, supplied fabricated news as stimuli, and asked questions related to participants’ reactions. Using Likert scales, we collected data and later analyzed it using Python’s pandas, numpy, scipy, seaborn, and matplotlib libraries. The research revealed interesting trends, such as individuals spending more than 5 hours per day on social media being more likely to spread false information.</p>
+<strong>Description:</strong> This research is an extension of my undergrad thesis, “Why do we share fake news?”. In this research, my two teammates and I investigated the human factors that may influence someone to spread misinformation regarding COVID-19 vaccination on social media. After surveying literature from various disciplines, including Philosophy, Psychology, and Computer Science, we formulated several null hypotheses about the pattern of misinformation propagation. We were struggling to find a suitable way to capture the interactions of individuals with fake news. I started reading about other papers to find a way to collect this kind of data. I designed an experiment that can capture and quantify the participants’ interactions with a piece of false news in a controlled environment. After collecting some demographic information about the participants, we supplied them with some fabricated news as stimuli about the problems related to COVID-19 vaccines displayed from usually acclaimed sources in Bangladesh. We asked a series of questions related to them. All the survey takers were supplied with the same fabricated news from the same sources to reduce bias. The questions we asked ranged from how it made them concerned about their friends and families to how desperate they were to share these as soon as they finished the survey. We used Likert scales with 7 points to collect data ranging from strongly negative (1) to strongly positive (7). Some examples of the supplied fabricated news are given in Fig. 1 &amp; 2. Those were created by me using Photoshop. Later in the survey, we clarified to the participants that the news was crafted and not actual.</p>
+
+<p>Fig 1: Fabricated news from a renowned english news outlet, The Daily Star in Bangladesh</p>
+
+<p>Fig 2: Fabricated news from another renowned english news outlet, The Dhaka Tribune in Bangladesh</p>
+
+<p>After collecting and cleaning those data by removing reponses that were invalid, we were left with 206 responses. Then, with the instructions of the project supervisor, I began analyzing the data. I used the Chi-square test and the Spearman Rank Correlation Coefficient to measure the correlation between features and applied Ordinal Logistic Regression to see how the features were related. I used pythons’ pandas, numpy, scipy, seaborn and matplotlib libraries to analyze and visualize these data.</p>
+
+<p>We observed several interesting trends through our research. For example, individuals spending more than 5 hours per day on social media were more likely to spread the false information provided to them compared to users who spent around 2 hours. Additionally, individuals are more likely to share information without verification that originates from a source with whom they have a personal relationship.</p>
+
+<p>Later, we published our research in Scientific Reports. I contributed to writing the manuscript of the paper.</p>
 
 <h2 id="presentation">Presentation</h2>
 
 <p><strong>Title:</strong> Gamification of ICT textbook material to provide an interactive learning experience<br>
 <strong>Venue:</strong> CHI 2023 Virtual Workshop hosted by HCI4SouthAsia (remote)<br>
 <strong>Role:</strong> Idea generation and presentation<br>
-<strong>Description:</strong> Presented a project idea to gamify Bangladesh ICT textbook content, providing an interactive learning experience for underprivileged students. The project focuses on digital literacy, following three learning principles: Interest-powered learning, Peer-supported Learning, and Relevance of learning content. The game simulates a real-life scenario, encourages peer collaboration, and ensures the content aligns with students’ coursework.</p>
+<strong>Description:</strong> I presented a half-baked idea of a project of gamification of Bangladesh ICT textbook content to provide an interactive learning experience to underprivileged students. This project aims to provide digital literacy to disadvantaged students who don’t have access to the internet and digital devices and prepare them for the upcoming digital world. To make this game effective and engaging, 3 learning principles will be followed. These are (1) <strong>Interest-powered learning</strong>, (2) <strong>Peer-supported Learning</strong>, and (3) <strong>Relevance of learning content.</strong></p>
+
+<ul>
+  <li>
+    <p><strong>Interest-powered learning:</strong> To make the game more engaging for our targeted age group, we will create an interface that simulates a real-life scenario. The interface will be designed to resemble an email inbox and school portal. In this game, the students will act as assistants in a lab. Their job will be to read, reply, and follow the instructions provided in the email address. That instruction may include uploading data or files with their credentials on the school portal and having video calls with other lab members. Some emails may contain spam or phishing content, and students’ tasks will be to identify and avoid those malicious situations.</p>
+  </li>
+  <li>
+    <p><strong>Peer-supported learning:</strong> This game will be designed as a multiplayer game. Each student will have both individual and group tasks. For instance, a task may require one student to read an email and send the right data file to another lab member. After that, the second lab member will receive and upload the data to complete the group task. Inside the game, the students can communicate with each other over the internet to solve any challenges that may arise. This will help strengthen their online collaboration skills. Relevance of learning content: The game’s content will be related to the student’s coursework to aid their understanding. Class 8-10 ICT curricula contain the above-mentioned topics. The content will be embedded within an enjoyable and exciting gameplay, acting as a Trojan horse.</p>
+  </li>
+</ul>
+
+<p>More about the presentation can be found here and here.</p>
 
 <h2 id="software-development">Software Development</h2>
 
@@ -150,20 +183,18 @@
 <p><strong>Title:</strong> Scale Kuwait<br>
 <strong>Technology and tools used:</strong> Django (Python) for the backend, Flutter (Dart) for mobile apps, PostgreSQL for the database, Docker for DevOps, React (JavaScript) for the website frontend, and RESTful API.<br>
 <strong>Links:</strong> <a href="website_link">Website</a>, <a href="android_app_link">Mobile Apps - Android</a>, <a href="ios_app_link">Mobile Apps - iOS</a><br>
-<strong>Role:</strong> Designing the software architecture and developing the whole software, including deployment<br>
-<strong>Description:</strong> A food delivery startup project where I designed the software architecture and developed the entire system. The backend follows a RESTful architecture pattern, and mobile apps are built using Flutter. An admin dashboard, made with React, is used for internal management. A testing environment has been set up to test new features before making them public. Docker is used for deployment, and automation is implemented for seamless deployment.</p>
+<strong>Role:</strong> Software Architect and Developer, including Deployment 
+<strong>Description:</strong> This project focuses on establishing a comprehensive system for a food delivery startup. I’ve designed the software architecture and developed the whole system. The project is divided into several parts.</p>
 
-<p><em>Fig 1: Fabricated news from a renowned English news outlet, The Daily Star in Bangladesh</em><br>
-<img src="link_to_fig1_image" alt="Fig 1"></p>
+<ul>
+  <li>
+    <p><strong>Website backend:</strong> Serving as the system’s nucleus, the website follows a RESTful architecture pattern. Other subsystems communicate with the server via API endpoints. The server receives the API requests and returns the appropriate responses after executing the necessary computations. To mitigate potential security breaches, exclusive database access is granted solely to this backend.  A simplified diagram of the system architecture is shown in Fig 3. Pythons’ Django and PostgreSQL are used for the backend.</p>
+  </li>
+  <li>
+    <p><strong>Mobile Apps:</strong> The mobile apps are for the customer end. The apps allow customers to subscribe to a package and select their desired meal from a provided menu. Customer can pause their subscribed days using the app. Additionally, customers can monitor their nutritional intake, encompassing calories, carbs, fat, and proteins. These apps have been crafted for Android and iOS platforms using a cross-platform framework, Flutter.*</p>
+  </li>
+</ul>
 
-<p><em>Fig 2: Fabricated news from another renowned English news outlet, The Dhaka Tribune in Bangladesh</em><br>
-<img src="link_to_fig2_image" alt="Fig 2"></p>
-
-<p><em>Fig 3: Simplified system architecture</em><br>
-<img src="link_to_fig3_image" alt="Fig 3"></p>
-
-<p><em>Fig 4: Screenshots of the mobile app</em><br>
-<img src="link_to_fig4_image" alt="Fig 4"></p>
 
           </article>
 
