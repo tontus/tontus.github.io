@@ -11,8 +11,9 @@ nav_order: 7
 - [Research Publication](#research-publication)
 - [Presentation](#presentation)
 - [Software Development](#software-development)
-  - [Scale Restaurant](#scale-restaurant)
-  - [Talking Planets](#talking-planets)
+  - [Scale Restaurant](#1-scale-restaurant)
+  - [Talking Planets](#2-talking-planets)
+  - [Hunting Flashcards](#3-hunting-flashcards)
 
 ## Research Publication
 
@@ -101,3 +102,33 @@ We used Flutter to build the apps. Custom-trained DialogFlow was used for chatti
 </div>
 
 
+### 3. Hunting Flashcards
+
+**Title:** Hunting Flashcards  
+**Technology and Tools Used:** Flutter for mobile app  
+**Link:** [iOS app](https://apps.apple.com/de/app/lernkarten-jagd/id1600091122)  
+**Role:** Software Development  
+
+**Description:** Hunting Flashcards is an iOS app that was made for a client using Flutter. The user of the app can learn different traits of various animals. Embedded latex was used to display equations inside the app.
+
+<div style="text-align: center;">
+
+{% include video.html path="assets/video/portfolio/fig6.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true max-height="250px" caption="Fig 6: Hunting Flashcards app" %}
+
+</div>
+
+## Other Projects
+
+### 1. Cyber Adventures of Deep
+
+**Title:** Cyber Adventures of Deep  
+**Award:** [Champion in ‘Digital Khichuri Challenge-2019’](https://www.undp.org/bangladesh/press-releases/digital-khichuri-challenge-peaceful-and-inclusive-society-accelerating-progress-sdgs)  
+**Role:** Idea generation, Presentation, Video editing  
+
+**Description:** This was a national-level hackathon organized by the United Nations Development Programme (UNDP) and supported by Facebook and the ICT ministry in Bangladesh. The competition's goal was to find a way to promote harmony and peace in online social media. Our team won the first prize for creating an idea for an engaging game to teach teenagers to identify misinformation quickly. Also, making them aware of spreading fake news on social media has severe real-life consequences. The teaser of the game is given below. I used Adobe After Effects to animate and Procreate to draw graphics for this teaser. 
+
+<div style="text-align: center;">
+
+{% include video.html path="https://youtu.be/IkbiYvM4Sao" class="img-fluid rounded z-depth-1" controls=true autoplay=true max-height="250px" caption="Fig 7: Cyber Aventure of Deep | Teaser" %}
+
+</div>
