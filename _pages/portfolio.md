@@ -11,7 +11,8 @@ nav_order: 7
 - [Research Publication](#research-publication)
 - [Presentation](#presentation)
 - [Software Development](#software-development)
-  - [Scale Kuwait](#scale-kuwait)
+  - [Scale Restaurant](#scale-restaurant)
+  - [Talking Planets](#talking-planets)
 
 ## Research Publication
 
@@ -93,8 +94,10 @@ More about the presentation can be found [here](https://drive.google.com/file/d/
 
 We used Flutter to build the apps. Custom-trained DialogFlow was used for chatting with planets. This app supports Bengali and English, and we plan to include more languages. Custom-made graphics and animations made the app enjoyable to our target audiences. We received Astronomy for Development Grants funded by the Office of Astronomy for Development of the International Astronomical Union for this project.
 
-<div style="text-align: center; height: 100px;">
+<div style="text-align: center;">
 
-{% include video.html path="assets/video/portfolio/fig5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true caption="Fig 5: Talking Planets app" %}
+{% include video.html path="assets/video/portfolio/fig5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true max-height="250px" caption="Fig 5: Talking Planets app" %}
 
 </div>
+
+
