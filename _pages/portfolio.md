@@ -62,7 +62,9 @@ More about the presentation can be found [here](https://drive.google.com/file/d/
 
 * **Website backend:** Serving as the system's nucleus, the website follows a RESTful architecture pattern. Other subsystems communicate with the server via API endpoints. The server receives the API requests and returns the appropriate responses after executing the necessary computations. To mitigate potential security breaches, exclusive database access is granted solely to this backend. A simplified diagram of the system architecture is shown in Fig 3. Pythons’ Django and PostgreSQL are used for the backend.
 
+<div style="text-align: center;">
 {% include figure.html path="assets/img/portfolio/fig3.png" class="img-fluid" caption="Fig 3: System architecture of the project"%}
+</div>
 
 * **Mobile Apps:** The mobile apps are for the customer end. The apps allow customers to subscribe to a package and select their desired meal from a provided menu. Customer can pause their subscribed days using the app. Additionally, customers can monitor their nutritional intake, encompassing calories, carbs, fat, and proteins. These apps have been crafted for Android and iOS platforms using a cross-platform framework, Flutter.
 
@@ -91,9 +93,8 @@ More about the presentation can be found [here](https://drive.google.com/file/d/
 
 We used Flutter to build the apps. Custom-trained DialogFlow was used for chatting with planets. This app supports Bengali and English, and we plan to include more languages. Custom-made graphics and animations made the app enjoyable to our target audiences. We received Astronomy for Development Grants funded by the Office of Astronomy for Development of the International Astronomical Union for this project.
 
+<div style="text-align: center; height: 100px;">
 
-<div style="text-align: center">
-
-{% include video.html path="assets/video/portfolio/fig5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true caption="Fig 5: Talking Planets app" max-height="256px"%}
+{% include video.html path="assets/video/portfolio/fig5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true caption="Fig 5: Talking Planets app" %}
 
 </div>
