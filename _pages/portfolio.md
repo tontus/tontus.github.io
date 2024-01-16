@@ -51,9 +51,9 @@ More about the presentation can be found [here](https://drive.google.com/file/d/
 
 ## Software Development
 
-### 1. Scale Kuwait
+### 1. Scale Restaurant
 
-**Title:** Scale Kuwait  
+**Title:** Scale Restaurant  
 **Technology and tools used:** Django (Python) for the backend, Flutter (Dart) for mobile apps, PostgreSQL for the database, Docker for DevOps, React (JavaScript) for the website frontend, and RESTful API.  
 **Links:** [Website](https://scale-kuwait.com/), [Mobile Apps - Android](https://play.google.com/store/apps/details?id=com.scaleKuwait.app), [Mobile Apps - iOS](https://apps.apple.com/us/app/scale-restaurant/id1583414026)  
 **Role:** Software Architect and Developer, including Deployment.
@@ -75,4 +75,21 @@ More about the presentation can be found [here](https://drive.google.com/file/d/
 * **DevOps:** I used docker in the Ubuntu server for the deployment. To make deployment seamless, I’ve installed some automation.
 
 
-{% include figure.html path="assets/img/portfolio/giphy.gif" class="img-fluid" caption ="Fig 4: Screenshots of the mobile apps"%}
+### 2. Talking Planets
+
+**Title:** Talking Planets
+
+**Technology and tools used:** Flutter for mobile app and DialogFlow for chatting. 
+
+**Links:** [Android app](https://play.google.com/store/apps/details?id=app.talking.planets&hl=en&gl=US)
+
+**Role:** Software Development, UI/UX direction.
+
+**Grants:** [We received a grant of 8000 Euro from the International Astronomical Union](https://www.astro4dev.org/category/astronomy-for-students-through-interactive-app-and-game/)
+
+**Description:** Our team, Pothikrit, developed an interactive astronomy app to popularize astronomy and science education among the young generation in Bangladesh and worldwide. It aims to increase awareness of astronomy and reduce the knowledge gap between high-income and low-income communities. Students will also learn about pressing challenges, such as climate change, through the lens of astronomy.
+
+We used Flutter to build the apps. Custom-trained DialogFlow was used for chatting with planets. This app supports Bengali and English, and we plan to include more languages. Custom-made graphics and animations made the app enjoyable to our target audiences. We received Astronomy for Development Grants funded by the Office of Astronomy for Development of the International Astronomical Union for this project.
+
+
+{% include video.liquid path="assets/video/portfolio/fig5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
