@@ -43,7 +43,9 @@ Later, we published our research in Scientific Reports. I contributed to writing
 
 - **Interest-powered learning:** To make the game more engaging for our targeted age group, we will create an interface that simulates a real-life scenario. The interface will be designed to resemble an email inbox and school portal. In this game, the students will act as assistants in a lab. Their job will be to read, reply, and follow the instructions provided in the email address. That instruction may include uploading data or files with their credentials on the school portal and having video calls with other lab members. Some emails may contain spam or phishing content, and students’ tasks will be to identify and avoid those malicious situations.
 
-- **Peer-supported learning:** This game will be designed as a multiplayer game. Each student will have both individual and group tasks. For instance, a task may require one student to read an email and send the right data file to another lab member. After that, the second lab member will receive and upload the data to complete the group task. Inside the game, the students can communicate with each other over the internet to solve any challenges that may arise. This will help strengthen their online collaboration skills. Relevance of learning content: The game’s content will be related to the student’s coursework to aid their understanding. Class 8-10 ICT curricula contain the above-mentioned topics. The content will be embedded within an enjoyable and exciting gameplay, acting as a Trojan horse.
+- **Peer-supported learning:** This game will be designed as a multiplayer game. Each student will have both individual and group tasks. For instance, a task may require one student to read an email and send the right data file to another lab member. After that, the second lab member will receive and upload the data to complete the group task. Inside the game, the students can communicate with each other over the internet to solve any challenges that may arise. This will help strengthen their online collaboration skills. 
+
+- **Relevance of learning content:** The game’s content will be related to the student’s coursework to aid their understanding. Class 8-10 ICT curricula contain the above-mentioned topics. The content will be embedded within an enjoyable and exciting gameplay, acting as a Trojan horse.
 
 More about the presentation can be found [here](https://drive.google.com/file/d/1fEBKUUiBCHnBLnFProgXMqacBcOyZCmV/view) and [here](https://docs.google.com/presentation/d/1ivirRIgMqAfxFcqjR5fTKt4HRihVuT2pvhOu5mDWPDg/edit?usp=sharing).
 
@@ -71,3 +73,6 @@ More about the presentation can be found [here](https://drive.google.com/file/d/
 * **Testing Environment:** A meticulous testing environment to test new features before making it public. It is a replica of the live system, ensuring robust feature testing.
 
 * **DevOps:** I used docker in the Ubuntu server for the deployment. To make deployment seamless, I’ve installed some automation.
+
+
+{% include figure.html path="assets/img/portfolio/giphy.gif" class="img-fluid" caption ="Fig 4: Screenshots of the mobile apps"%}
