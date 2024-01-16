@@ -127,6 +127,6 @@ We used Flutter to build the apps. Custom-trained DialogFlow was used for chatti
 
 <div style="text-align: center;">
 
-{% include video.html path="https://www.youtube.com/embed/IkbiYvM4Sao?si=-RioOuh2O5cRe4IN" class="img-fluid rounded z-depth-1" controls=true autoplay=true max-height="480px" caption="Fig 7: Cyber Aventure of Deep | Teaser" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IkbiYvM4Sao?si=-RioOuh2O5cRe4IN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </div>
