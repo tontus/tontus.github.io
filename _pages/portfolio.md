@@ -14,6 +14,8 @@ nav_order: 7
   - [Scale Restaurant](#1-scale-restaurant)
   - [Talking Planets](#2-talking-planets)
   - [Hunting Flashcards](#3-hunting-flashcards)
+- [Other Projects](#other-projects)
+  - [Cyber Adventures of Deep](#1-cyber-adventures-of-deep)
 
 ## Research Publication
 
@@ -97,7 +99,7 @@ We used Flutter to build the apps. Custom-trained DialogFlow was used for chatti
 
 <div style="text-align: center;">
 
-{% include video.html path="assets/video/portfolio/fig5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true max-height="250px" caption="Fig 5: Talking Planets app" %}
+{% include video.html path="assets/video/portfolio/figure5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true max-height="250px" caption="Fig 5: Talking Planets app" %}
 
 </div>
 
@@ -127,8 +129,10 @@ We used Flutter to build the apps. Custom-trained DialogFlow was used for chatti
 
 **Description:** This was a national-level hackathon organized by the United Nations Development Programme (UNDP) and supported by Facebook and the ICT ministry in Bangladesh. The competition's goal was to find a way to promote harmony and peace in online social media. Our team won the first prize for creating an idea for an engaging game to teach teenagers to identify misinformation quickly. Also, making them aware of spreading fake news on social media has severe real-life consequences. The teaser of the game is given below. I used Adobe After Effects to animate and Procreate to draw graphics for this teaser. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IkbiYvM4Sao?si=-RioOuh2O5cRe4IN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <div style="text-align: center;">
 
-{% include video.html path="https://youtu.be/IkbiYvM4Sao" class="img-fluid rounded z-depth-1" controls=true autoplay=true max-height="250px" caption="Fig 7: Cyber Aventure of Deep | Teaser" %}
+{% include video.html path="https://www.youtube.com/embed/IkbiYvM4Sao?si=-RioOuh2O5cRe4IN" class="img-fluid rounded z-depth-1" controls=true autoplay=true max-height="250px" caption="Fig 7: Cyber Aventure of Deep | Teaser" %}
 
 </div>
