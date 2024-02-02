@@ -18,7 +18,7 @@ nav_order: 7
   - [Cyber Adventures of Deep](#1-cyber-adventures-of-deep)
 
 ## Research Publication
-
+---
 **Title:** A cognitive behaviour data analysis on the use of social media in the global south context focusing on Bangladesh  
 **Paper link:** [Read the Paper](https://www.nature.com/articles/s41598-023-30125-w) https://doi.org/10.1038/s41598-023-30125-w  
 **Role:** Null hypothesis formulation, Survey design, data collection & analysis, writing manuscript
@@ -36,7 +36,7 @@ We observed several interesting trends through our research. For example, indivi
 Later, we published our research in Scientific Reports. I contributed to writing the manuscript of the paper.
 
 ## Presentation
-
+---
 **Title:** Gamification of ICT textbook material to provide an interactive learning experience  
 **Venue:** [CHI 2023 Virtual Workshop hosted by HCI4SouthAsia (remote)](https://hci4south.asia/workshop-chi-2023/)  
 **Role:** Idea generation and presentation
@@ -54,7 +54,7 @@ More about the presentation can be found [here](https://drive.google.com/file/d/
 ## Software Development
 
 ### 1. Scale Restaurant
-
+---
 **Title:** Scale Restaurant  
 **Technology and tools used:** Django (Python) for the backend, Flutter (Dart) for mobile apps, PostgreSQL for the database, Docker for DevOps, React (JavaScript) for the website frontend, and RESTful API.  
 **Links:** [Website](https://scale-kuwait.com/), [Mobile Apps - Android](https://play.google.com/store/apps/details?id=com.scaleKuwait.app), [Mobile Apps - iOS](https://apps.apple.com/us/app/scale-restaurant/id1583414026)  
@@ -79,7 +79,7 @@ More about the presentation can be found [here](https://drive.google.com/file/d/
 - **DevOps:** I used docker in the Ubuntu server for the deployment. To make deployment seamless, I’ve installed some automation.
 
 ### 2. Talking Planets
-
+---
 **Title:** Talking Planets
 
 **Technology and tools used:** Flutter for mobile app and DialogFlow for chatting.
@@ -101,7 +101,7 @@ We used Flutter to build the apps. Custom-trained DialogFlow was used for chatti
 </div>
 
 ### 3. Hunting Flashcards
-
+---
 **Title:** Hunting Flashcards  
 **Technology and Tools Used:** Flutter for mobile app  
 **Link:** [iOS app](https://apps.apple.com/de/app/lernkarten-jagd/id1600091122)  
@@ -118,7 +118,7 @@ We used Flutter to build the apps. Custom-trained DialogFlow was used for chatti
 ## Other Projects
 
 ### 1. Cyber Adventures of Deep
-
+---
 **Title:** Cyber Adventures of Deep  
 **Award:** [Champion in ‘Digital Khichuri Challenge-2019’](https://www.undp.org/bangladesh/press-releases/digital-khichuri-challenge-peaceful-and-inclusive-society-accelerating-progress-sdgs)  
 **Role:** Idea generation, Presentation, Video editing
